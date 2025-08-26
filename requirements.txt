@@ -1,4 +1,5 @@
 crewai
-crewai[tools]
 google-generativeai>=0.4.0
 python-dotenv
+langchain-google-genai
+crewai_tools
