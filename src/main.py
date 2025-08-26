@@ -57,7 +57,7 @@ analysis_task = Task(
 project_crew = Crew(
     agents=[research_agent, analyst_agent],
     tasks=[research_task, analysis_task],
-    verbose=2,
+    verbose=True, # Corrigido para True
     process=Process.sequential
 )
 
